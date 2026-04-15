@@ -48,6 +48,8 @@ kyden_person = Person("kyden", 23, ["sunset orange", "aggie blue"], [40, 30, 96]
 
 print(andy_person, will_person, kyden_person)
 
+griffy = Person("griffith gotchy", 21, ["green"], [100, 100, 100])
+
 
 print(andy_person.calc_avg_grades())
 # print(ryan.calc_avg_grades())

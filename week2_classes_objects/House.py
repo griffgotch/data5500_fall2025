@@ -49,10 +49,11 @@ our_house = House(435, 3000, 3, 5, 0, 1234, 7)
 our_house.set_sq_ft(3500)
 
 our_house.__garage_code = 2468
-
 print(our_house.__garage_code)
 
 print(our_house.get_sq_ft())
+
+print(our_house.__init__(435, 3000, 3, 5, 0, 1234, 7))
 
 
 
